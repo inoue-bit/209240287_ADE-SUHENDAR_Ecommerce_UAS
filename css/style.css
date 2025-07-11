@@ -478,7 +478,7 @@ footer .credit a {
 
 /* mobile */
 @media (max-width: 450px) {
-  html  {
+  html .keranjang {
     font-size: 55%;
   }
 }
