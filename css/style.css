@@ -138,7 +138,7 @@ body {
 
 .navbar-container .navbar-container-extra a:hover {
   color: var(--primary);
-
+}
 /* hero section */
 .hero {
   min-height: 100vh;
@@ -394,7 +394,7 @@ footer .credit a {
 /* media queries */
 /* laptop */
 @media (max-width: 1366px) {
-  html {
+  html .keranjang.html {
     font-size: 75%;
   }
 
@@ -477,7 +477,7 @@ footer .credit a {
 
 /* mobile */
 @media (max-width: 450px) {
-  html {
+  html  {
     font-size: 55%;
   }
 }
