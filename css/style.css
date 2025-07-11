@@ -79,61 +79,7 @@ body {
   color: var(--primary);
 }
 
-.navbarb {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.4rem 7%;
-  background-color: rgb(1, 1, 1, 0.8);
-  border-bottom: 1px solid #533e61;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-}
 
-.navbarb .navbar-logo-container {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #fff;
-  font-style: italic;
-}
-.navbarb .navbar-logo-container span {
-  color: var(--primary);
-}
-
-.navbarb .navbar-container a {
-  color: #fff;
-  display: inline-block;
-  font: 1.3rem;
-  margin: 0 1rem;
-}
-
-.navbarb .navbar-container a:hover {
-  color: var(--primary);
-}
-
-.navbarb .navbar-container a::after {
-  content: "";
-  display: block;
-  padding-bottom: 0.5rem;
-  border-bottom: 0.1rem solid var(--primary);
-  transform: scaleX(0);
-  transition: 0.2s linear;
-}
-
-.navbar .navbar-container a:hover::after {
-  transform: scaleX(0.5);
-}
-
-.navbarb .navbar-container-extra a {
-  color: #fff;
-  margin: 0 0.5rem;
-}
-
-.navbar-container .navbar-container-extra a:hover {
-  color: var(--primary);
 
 #daftar-product {
   display: none;
