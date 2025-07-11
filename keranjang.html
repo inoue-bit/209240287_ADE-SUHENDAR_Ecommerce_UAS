@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inoue shop</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons  -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Inoue<span>shop</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="index.html">home</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="keranjang.html" id="shopping-cart"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="daftar-product"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <main class="keranjang-container">
+      <h1>Keranjang Belanja</h1>
+      <div id="daftarKeranjang"></div>
+      <p class="total" id="totalHarga"></p>
+      <div class="btn-group">
+        <button class="hapus" onclick="hapusKeranjang()">Hapus Semua</button>
+        <button onclick="checkout()">Checkout</button>
+      </div>
+    </main>
+    <div id="daftarKeranjang"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

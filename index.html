@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inoue shop</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons  -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css " />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Inoue<span>shop</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">home</a>
+        <a href="#about">tentang kami</a>
+        <a href="#produk">produk</a>
+        <a href="#contact">kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="keranjang.html" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="daftar-product"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Nikmati Sensasi <span>Gamer</span></h1>
+        <p>Ikuzoo beli</p>
+        <a href="#produk" class="cta">beli</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about sectiom start -->
+
+    <secion id="about" class="about">
+      <h2><span>Tentang</span> kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+          <div class="content">
+            <h3>kenapa memilih produk kami?</h3>
+            <p>
+              Kami adalah penyedia solusi lengkap untuk semua kebutuhan gaming
+              Anda. Dari perangkat keras berkualitas tinggi seperti PC gaming,
+              laptop, mouse, keyboard, dan headset, hingga aksesori dan komponen
+              pendukung terbaik—kami hadir untuk membawa pengalaman bermain game
+              Anda ke level berikutnya. Kami memahami bahwa gaming bukan sekadar
+              hobi, tapi gaya hidup. Karena itu, kami hanya menghadirkan
+              produk-produk pilihan dari merek terpercaya, dengan performa dan
+              daya tahan yang telah terbukti. Baik Anda gamer profesional,
+              streamer, atau penggemar kasual, kami punya sesuatu untuk Anda.
+              Dengan layanan yang responsif, jaminan kualitas, dan semangat
+              komunitas, kami tidak hanya menjual perangkat—kami mendukung
+              perjalanan gaming Anda sepenuhnya. Level up your game. Mulai
+              petualanganmu bersama kami.
+            </p>
+          </div>
+        </div>
+      </div>
+    </secion>
+
+    <!-- about sectiom end -->
+
+    <!-- product section start -->
+
+    <section id="produk" class="produk">
+      <h2><span>Daftar</span> Produk</h2>
+      <p>🎮 Level Up dengan InoueShop – Gear Wajib Gamer Sejati!</p>
+
+      <div class="row">
+        <div class="produk-cart">
+          <img src="produk/produk 1.jpg"alt="PC GAMING"
+            class="produk-cart-img"/>
+          <h3 class="produk-cart-title">- PC GAMING -</h3>
+          <p class="produk-cart-price">IDR 10.000.000</p>
+         <button onclick="tambahKeKeranjang('PC GAMING', 4149000)">Tambah ke Keranjang</button>
+      <button onclick="beliLangsung('PC GAMING')">Beli Sekarang</button>
+        </div>
+        <div class="produk-cart">
+          <img
+            src="produk/produk 2.jpg"
+            alt="MOUSE"
+            class="produk-cart-img"
+          />
+          <h3 class="produk-cart-title">- MOUSE -</h3>
+          <p class="produk-cart-price">IDR 230.000</p>
+          <button onclick="tambahKeKeranjang('MOUSE', 4149000)">Tambah ke Keranjang</button>
+      <button onclick="beliLangsung('MOUSE')">Beli Sekarang</button>
+      
+        </div>
+        <div class="produk-cart">
+          <img
+            src="produk/produk 3.jpg"
+            alt="MONITOR"
+            class="produk-cart-img"
+          />
+          <h3 class="produk-cart-title">- MONITOR -</h3>
+          <p class="produk-cart-price">IDR 1.990.000</p>
+          <button onclick="tambahKeKeranjang('MONITOR', 4149000)">Tambah ke Keranjang</button>
+      <button onclick="beliLangsung('MONITOR')">Beli Sekarang</button>
+        </div>
+        <div class="produk-cart">
+          <img
+            src="produk/produk 4.jpg"
+            alt="KEYBOARD"
+            class="produk-cart-img"
+          />
+          <h3 class="produk-cart-title">- KEYBOARD -</h3>
+          <p class="produk-cart-price">IDR 349.000</p>
+          <button onclick="tambahKeKeranjang('KEYBOARD', 4149000)">Tambah ke Keranjang</button>
+      <button onclick="beliLangsung('KEYBOARD')">Beli Sekarang</button>
+        </div>
+        <div class="produk-cart">
+          <img
+            src="produk/produk 5.jpg"
+            alt="LAPTOP GAMING"
+            class="produk-cart-img"
+          />
+          <h3 class="produk-cart-title">- LAPTOP GAMING -</h3>
+          <p class="produk-cart-price">IDR 13.299.000</p>
+          <button onclick="tambahKeKeranjang('LAPTOP GAMING', 4149000)">Tambah ke Keranjang</button>
+      <button onclick="beliLangsung('LAPTOP GAMING')">Beli Sekarang</button>
+        </div>
+        <div class="produk-cart">
+          <img
+            src="produk/produk 6.jpg"
+            alt="GAMEPAD"
+            class="produk-cart-img"
+          />
+          <h3 class="produk-cart-title">- GAMEPAD -</h3>
+          <p class="produk-cart-price">IDR 569.000</p>
+          <button onclick="tambahKeKeranjang('GAMEPAD', 4149000)">Tambah ke Keranjang</button>
+      <button onclick="beliLangsung('GAMEPAD')">Beli Sekarang</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section end -->
+
+    <!-- contact section start -->
+      <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>🎮 Hubungi Kami Jika Ada Kritik Dan Saran</p>
+
+        <div class="row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.6096588316!2d107.56058275622455!3d-6.903271921173377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1751881868781!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map"
+          ></iframe>
+        </div>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+            <button type="submit" class="btn">kirim pesan</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <!-- contact section end -->
+
+    <!-- footer start -->
+<footer>
+<div class="socials">
+  <a href="https://www.instagram.com/dew._wazowski?igsh=a3ZmOGl5NWZ4bmho"> <i data-feather="instagram"></i></a>
+  <a href="https://www.facebook.com/ade.suhendar.52643?mibextid=ZbWKwL"> <i data-feather="facebook"></i></a>
+   <a href="https://api.whatsapp.com/send/?phone=6289647062151&text&type=phone_number&app_absent=0"> <i data-feather="phone"></i></a>
+</div>
+<div class="links">
+  <a href="#home">Home</a>
+  <a href="#about">Tentang Kami</a>
+  <a href="#produk">produk</a>
+  <a href="#contact">Kontak</a>
+</div>
+
+<div class="credit">
+  <p>Created By <a href="">AdeSuhendar</a>.  l &copy;2025.</p>
+</div>
+
+
+
+</footer>
+    <!-- footer end -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
